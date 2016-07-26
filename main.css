@@ -1,0 +1,166 @@
+#contactinfobar-top {
+	color: white;
+	float: right;
+	font-style: italic;
+	font-size: 14px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+}
+
+#headerjumbo {
+    background-image: url("http://i.imgur.com/6ZlYt21.png");
+    background-size: contain;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0.3rem solid black;
+    font-family: 'Century Gothic';
+}
+
+#navbar-top img {
+	height: 14rem;
+	width: auto;
+}
+
+#navbar-top h1 {
+	padding-left: 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 3rem;
+	text-shadow: -3px 1px 1px black;
+	color: white;
+}
+
+#navbar-top ul {
+	list-style: None;
+	float: right;
+	margin-top: 3rem;
+}
+
+#navbar-top ul li {
+	padding: 10px;
+	padding-bottom: 0px;
+	font-size: 24px;
+	float: left;
+	color: white;
+	text-shadow: -3px 1px 1px black;
+}
+
+#navbar-top ul li:hover {
+	color: #a0a0a0;
+}
+
+#navbar-top ul li:active {
+	position: relative;
+	top: 1px;
+}
+
+#main {
+	background-image: url("http://i.imgur.com/x9gfvVz.png");
+	background-size: contain;
+	border: 0.3rem solid black;
+	height: 50rem;
+	padding: 0px;
+}
+
+#main img {
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-top: 3rem;
+}
+
+#mainjumbo {
+	color: white;
+}
+
+#slideshowimage {
+	box-shadow: -7px 7px 15px black;
+}
+
+#imagecaption {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=");
+	padding: 6rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	height: 42rem;
+	text-align: center;
+	box-shadow: -7px 7px 15px black;
+}
+
+#imagecaption p {
+	font-family: 'Century Gothic';
+	font-size: 3rem;
+}
+
+#slideshowbutton img {
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+	height: 7rem;
+	width: auto;
+}
+
+#slideshowbutton-left {
+	float: left;
+}
+
+#slideshowbutton img:active {
+	position: relative;
+	top: 2px;
+}
+
+#slideshowbutton-right {
+	float: right;
+}
+
+#index h2 {
+	color: black;
+	font-family: 'Century Gothic';
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+#casestudies img {
+	margin-top: 3rem;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 1rem;
+	padding-right: 2rem;
+}
+
+#casestudies a {
+	color: black;
+	font-family:'Century Gothic';
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.prefooter {
+	margin-top: 2rem;
+	height: 10rem;
+}
+
+.prefooter img {
+	display: block;
+	float: right;
+}
+
+#footerjumbo {
+    background-image: url("http://i.imgur.com/6ZlYt21.png");
+    background-size: contain;
+    margin-top: 5rem;
+    margin-bottom: 0px;
+    padding-top: 3rem;
+    border-top: 0.3rem solid black;
+    font-family: 'Century Gothic';
+    height: 10rem;
+}
+
+#contactinfobar-bottom {
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 14px;
+}
