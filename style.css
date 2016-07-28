@@ -36,13 +36,13 @@ body {
 	color: white;
 }
 
-#navbar-top ul {
+.menu ul {
 	list-style: None;
 	float: right;
 	margin-top: 3rem;
 }
 
-#navbar-top ul li {
+.menu ul li {
 	padding: 10px;
 	padding-bottom: 0px;
 	font-size: 24px;
@@ -51,11 +51,11 @@ body {
 	text-shadow: -3px 1px 1px black;
 }
 
-#navbar-top ul li:hover {
+.menu ul li:hover {
 	color: #a0a0a0;
 }
 
-#navbar-top ul li:active {
+.menu ul li:active {
 	position: relative;
 	top: 1px;
 }
