@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-	display: flex;
+	display: inline-block;
 }
 
 .logo img {
