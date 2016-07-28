@@ -14,12 +14,12 @@ body {
 }
 
 .headerbar {
-    background-image: url("http://i.imgur.com/6ZlYt21.png");
-    background-size: contain;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-bottom: 0.3rem solid black;
-    margin-bottom: 0px;
+	background-image: url("http://i.imgur.com/6ZlYt21.png");
+	background-size: contain;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0.3rem solid black;
+	margin-bottom: 0px;
 }
 
 .logo {
