@@ -38,6 +38,7 @@ body {
 
 .menu {
 	background-color: #000;
+	overflow: hidden;
 	margin-bottom: 0px;
 }
 
