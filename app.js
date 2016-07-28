@@ -1,5 +1,5 @@
 var main = function() {
-  $('.headerbar').click(function() {
+  $('.menu-wrapper').click(function() {
     $(this).addClass('active');
   });
 }
