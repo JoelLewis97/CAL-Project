@@ -97,6 +97,7 @@ body {
 
 #mainjumbo {
 	color: white;
+	overflow-x: scroll;
 }
 
 #slideshowimage {
