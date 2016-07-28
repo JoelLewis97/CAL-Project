@@ -38,17 +38,19 @@ body {
 
 .menu ul {
 	list-style: None;
-	float: right;
-	margin-top: 3rem;
+	float: left;
 }
 
 .menu ul li {
-	padding: 10px;
-	padding-bottom: 0px;
-	font-size: 24px;
 	float: left;
-	color: white;
-	text-shadow: -3px 1px 1px black;
+	padding: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+	border-right: 1px solid black;
+	white-space: nowrap;
 }
 
 .menu ul li:hover {
