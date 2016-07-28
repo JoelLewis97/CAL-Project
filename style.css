@@ -96,6 +96,8 @@ body {
 }
 
 #mainjumbo {
+	overflow: auto;
+	white-space: nowrap;
 	color: white;
 }
 
