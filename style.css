@@ -113,7 +113,7 @@ body {
 	height: 42rem;
 	text-align: center;
 	box-shadow: -7px 7px 15px black;
-	word-wrap: break-word;
+	overflow-y: scroll;
 }
 
 #imagecaption p {
