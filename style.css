@@ -115,6 +115,7 @@ body {
 	height: 42rem;
 	text-align: center;
 	box-shadow: -7px 7px 15px black;
+	overflow: auto;
 }
 
 #imagecaption p {
