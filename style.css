@@ -5,29 +5,38 @@ body {
 }
 
 #contactinfobar-top {
-	color: white;
-	float: right;
-	font-style: italic;
-	font-size: 14px;
+	width: 100%;
 	margin-bottom: 0px;
 	margin-right: 10px;
 }
 
-#headerjumbo {
-    background-image: url("http://i.imgur.com/6ZlYt21.png");
-    background-size: contain;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-bottom: 0.3rem solid black;
-    margin-bottom: 0px;
+#contactinfobar-top p {
+	color: white;
+	float: right;
+	font-style: italic;
+	font-size: 14px;
 }
 
-#navbar-top img {
+.headerbar {
+	background-image: url("http://i.imgur.com/6ZlYt21.png");
+	background-size: contain;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0.3rem solid black;
+	margin-bottom: 0px;
+}
+
+.logo {
+	display: inline-block;
+	min-width: 300px;
+}
+
+.logo img {
 	height: 14rem;
 	width: auto;
 }
 
-#navbar-top h1 {
+.logo h1 {
 	padding-left: 0px;
 	text-align: left;
 	font-weight: bold;
@@ -36,36 +45,48 @@ body {
 	color: white;
 }
 
-#navbar-top ul {
+.logo a {
+	width: 100%;
+}
+
+.menu-wrapper {
+	background-color: #111;
+}
+
+.menu ul {
 	list-style: None;
-	float: right;
-	margin-top: 3rem;
-}
-
-#navbar-top ul li {
-	padding: 10px;
-	padding-bottom: 0px;
-	font-size: 24px;
 	float: left;
-	color: white;
-	text-shadow: -3px 1px 1px black;
+	margin-bottom: 0px;
 }
 
-#navbar-top ul li:hover {
+.menu ul li {
+	float: left;
+	padding-left: 0rem;
+	padding-right: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	white-space: nowrap;
+}
+
+.menu ul li:hover {
 	color: #a0a0a0;
 }
 
-#navbar-top ul li:active {
+.menu ul li:active {
 	position: relative;
 	top: 1px;
 }
 
 #main {
-	background-image: url("http://i.imgur.com/x9gfvVz.png");
+	background-image: url("http://i.imgur.com/528g5ke.jpg");
 	background-size: contain;
-	border: 0.3rem solid black;
+	border-bottom: 0.3rem solid black;
 	height: 50rem;
 	padding: 0px;
+	overflow-x: auto;
 }
 
 #main img {
@@ -84,7 +105,7 @@ body {
 }
 
 #imagecaption {
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=");
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
 	padding: 6rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -93,6 +114,7 @@ body {
 	height: 42rem;
 	text-align: center;
 	box-shadow: -7px 7px 15px black;
+	overflow-y: auto;
 }
 
 #imagecaption p {
