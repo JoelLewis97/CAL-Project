@@ -56,14 +56,14 @@ body {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 16px;
 	color: #fff;
 	border-right: 1px solid black;
 	white-space: nowrap;
 }
 
 .menu ul li:hover {
-	background-color: #a0a0a0;
+	color: #a0a0a0;
 }
 
 .menu ul li:active {
