@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+body {
+	font-family: 'Open Sans';
+}
+
 #contactinfobar-top {
 	color: white;
 	float: right;
@@ -13,7 +19,6 @@
     padding-top: 0px;
     padding-bottom: 0px;
     border-bottom: 0.3rem solid black;
-    font-family: 'Century Gothic';
 }
 
 #navbar-top img {
@@ -90,7 +95,6 @@
 }
 
 #imagecaption p {
-	font-family: 'Century Gothic';
 	font-size: 3rem;
 }
 
@@ -117,7 +121,6 @@
 
 #index h2 {
 	color: black;
-	font-family: 'Century Gothic';
 	font-weight: bold;
 	font-size: 4rem;
 }
@@ -132,7 +135,6 @@
 
 #casestudies a {
 	color: black;
-	font-family:'Century Gothic';
 	font-size: 3rem;
 	font-weight: bold;
 }
@@ -154,7 +156,6 @@
     margin-bottom: 0px;
     padding-top: 3rem;
     border-top: 0.3rem solid black;
-    font-family: 'Century Gothic';
     height: 10rem;
 }
 
