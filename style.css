@@ -75,7 +75,7 @@ body {
 #main {
 	background-image: url("http://i.imgur.com/528g5ke.jpg");
 	background-size: contain;
-	border: 0.3rem solid black;
+	border-bottom: 0.3rem solid black;
 	height: 50rem;
 	padding: 0px;
 }
