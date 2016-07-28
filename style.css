@@ -40,6 +40,10 @@ body {
 	color: white;
 }
 
+.logo a {
+	width: 100%;
+}
+
 .menu-wrapper {
 	background-color: #111;
 }
