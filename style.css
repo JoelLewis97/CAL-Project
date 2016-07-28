@@ -40,13 +40,10 @@ body {
 	background-color: #000;
 }
 
-.menu {
-	margin-bottom: 0px;
-}
-
 .menu ul {
 	list-style: None;
 	float: left;
+	margin-bottom: 0px;
 }
 
 .menu ul li {
