@@ -90,6 +90,7 @@ body {
 
 #main img {
 	display: block;
+	overflow-x: scroll;
 	width: 100%;
 	position: relative;
 	margin-top: 3rem;
