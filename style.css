@@ -96,7 +96,7 @@ body {
 }
 
 #mainjumbo {
-	overflow-x: scroll;
+	display:inline-block;
 	color: white;
 }
 
