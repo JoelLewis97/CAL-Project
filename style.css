@@ -36,9 +36,11 @@ body {
 	color: white;
 }
 
-.menu {
+.menu-wrapper {
 	background-color: #000;
-	overflow: hidden;
+}
+
+.menu {
 	margin-bottom: 0px;
 }
 
