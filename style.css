@@ -22,6 +22,10 @@ body {
     margin-bottom: 0px;
 }
 
+.logo {
+	display: flex;
+}
+
 .logo img {
 	height: 14rem;
 	width: auto;
