@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
 #contactinfobar-top {
 	color: white;
 	float: right;
@@ -90,7 +92,7 @@
 }
 
 #imagecaption p {
-	font-family: 'Century Gothic';
+	font-family: 'Open Sans';
 	font-size: 3rem;
 }
 
