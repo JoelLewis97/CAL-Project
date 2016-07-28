@@ -36,6 +36,10 @@ body {
 	color: white;
 }
 
+.menu {
+	background-color: #000;
+}
+
 .menu ul {
 	list-style: None;
 	float: left;
