@@ -96,7 +96,6 @@ body {
 }
 
 #mainjumbo {
-	overflow: auto;
 	white-space: nowrap;
 	color: white;
 }
@@ -115,7 +114,7 @@ body {
 	height: 42rem;
 	text-align: center;
 	box-shadow: -7px 7px 15px black;
-	overflow: auto;
+	overflow-y: auto;
 }
 
 #imagecaption p {
