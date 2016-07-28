@@ -5,6 +5,7 @@ body {
 }
 
 #contactinfobar-top {
+	width: 100%;
 	color: white;
 	float: right;
 	font-style: italic;
