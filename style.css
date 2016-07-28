@@ -22,12 +22,12 @@ body {
     margin-bottom: 0px;
 }
 
-#navbar-top img {
+.logo img {
 	height: 14rem;
 	width: auto;
 }
 
-#navbar-top h1 {
+.logo h1 {
 	padding-left: 0px;
 	text-align: left;
 	font-weight: bold;
