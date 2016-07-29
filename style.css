@@ -129,7 +129,7 @@ body {
 	width: auto;
 }
 
-#slideshowbutton-left {
+#slideshowbutton-prev {
 	float: left;
 }
 
@@ -138,7 +138,7 @@ body {
 	top: 2px;
 }
 
-#slideshowbutton-right {
+#slideshowbutton-next {
 	float: right;
 }
 
