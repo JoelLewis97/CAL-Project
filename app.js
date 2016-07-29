@@ -1,9 +1,11 @@
 var main = function() {
   $("#slideshowbutton").click(function() {
-    $("#slideshowimage").fadeOut(1000);
-    $("#imagecaption").fadeOut(1000);
-    $("#slideshowimage").fadeIn(1000);
-    $("#imagecaption").fadeIn(1000);
+    $(".activeslide").fadeOut(1000).removeClass('activeslide');
+    $(".activecaption").fadeOut(1000).removeClass('.activecaption');
+    $(".nextslide").fadeIn(1000).addClass("activeslide");
+    $(".nextslide").removeClass("nextslide");
+    $(".nextcaption").fadeIn(1000).addClass("activecaption");
+    $(".nextcaption").removeClass("nextcaption");
   });
 }
 
