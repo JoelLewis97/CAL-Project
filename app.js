@@ -8,6 +8,10 @@ var main = function() {
       nextSlide = $(".slideshow").first();
       nextCaption = $(".slideshow-captions").first();
     };
+    currentSlide.fadeOut(1000).removeClass("activeslide");
+    currentCaption.fadeOut(1000).removeClass("activecaption");
+    nextSlide.fadeIn(1000).addClass("activeslide");
+    currentSlide.fadeIn(1000).addClass("activecaption");
   });
 }
 
