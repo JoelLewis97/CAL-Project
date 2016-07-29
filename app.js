@@ -4,6 +4,7 @@ var main = function() {
     var nextSlide = currentSlide.next();
     if (nextSlide.length === 0) {
       nextSlide = $(".slideshow").first();
+      nextSlide.addClass('new');
     };
   });
 }
