@@ -1,9 +1,10 @@
 var main = function() {
   $("#slideshowbutton-right").click(function() {
-    $(".activeslide").fadeOut(1000).removeClass('activeslide');
-    $(".activecaption").fadeOut(1000).removeClass('.activecaption');
-    $(".activeslide").next().fadeIn(1000).addClass("activeslide");
-    $(".activecaption").next()fadeIn(1000).addClass("activecaption");
+    var currentSlide = $(".activeslide");
+    var nextSlide = currentSlide.next();
+    if (nextSlide.is('h1')) {
+      $('body').addClass('red');
+    };
   });
 }
 
