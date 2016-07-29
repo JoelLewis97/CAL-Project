@@ -4,11 +4,6 @@ body {
 	font-family: 'Open Sans';
 }
 
-.new {
-	height: 100px;
-	width: 100px;
-}
-
 #contactinfobar-top {
 	width: 100%;
 	margin-bottom: 0px;
@@ -106,7 +101,12 @@ body {
 }
 
 .slideshowimage {
+	display: none;
 	box-shadow: -7px 7px 15px black;
+}
+
+.activeslide {
+	display: inline;
 }
 
 .imagecaption {
