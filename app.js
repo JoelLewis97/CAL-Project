@@ -11,7 +11,7 @@ var main = function() {
     currentSlide.fadeOut(1000).removeClass("activeslide");
     currentCaption.fadeOut(1000).removeClass("activecaption");
     nextSlide.fadeIn(1000).addClass("activeslide");
-    currentSlide.fadeIn(1000).addClass("activecaption");
+    nextCaption.fadeIn(1000).addClass("activecaption");
   });
 }
 
