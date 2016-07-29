@@ -1,5 +1,5 @@
 var main = function() {
-  $("#slideshowbutton").click(function() {
+  $("#slideshowbutton-right").click(function() {
     $(".activeslide").fadeOut(1000).removeClass('activeslide');
     $(".activecaption").fadeOut(1000).removeClass('.activecaption');
     $(".activeslide").next().fadeIn(1000).addClass("activeslide");
