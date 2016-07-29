@@ -1,5 +1,10 @@
 var main = function() {
-  $(".slideshowbutton img").click(function() {
+  $(".slideshowbutton-left").click(function() {
+    $(".slideshowimage").fadeOut(1000);
+    $(".slideshowimage").fadeIn(1000);
+  });
+
+  $(".slideshowbutton-right").click(function() {
     $(".slideshowimage").fadeOut(1000);
     $(".slideshowimage").fadeIn(1000);
   });
