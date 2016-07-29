@@ -1,6 +1,6 @@
 var main = function() {
   $("#slideshowbutton-next").click(function() {
-    "hello-world".dialog();
+    window.alert("okay");
     var currentSlide = $(".activeslide");
     var nextSlide = currentSlide.next();
     var currentCaption = $(".activecaption");
