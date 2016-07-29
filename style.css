@@ -99,6 +99,10 @@ body {
 	color: white;
 }
 
+.slideshow {
+	padding-left: 0px;
+}
+
 .slideshowimage {
 	display: none;
 	box-shadow: -7px 7px 15px black;
