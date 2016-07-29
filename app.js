@@ -3,7 +3,7 @@ var main = function() {
     var currentSlide = $(".activeslide");
     var nextSlide = currentSlide.next();
     if (nextSlide.length === 0) {
-      $('body').addClass('red');
+      nextSlide = $(".slideshow").first();
     };
   });
 }
