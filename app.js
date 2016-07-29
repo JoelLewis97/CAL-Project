@@ -1,6 +1,5 @@
 var main = function() {
   $("#slideshowbutton-next").click(function() {
-    window.alert("okay");
     var currentSlide = $(".activeslide");
     var nextSlide = currentSlide.next();
     var currentCaption = $(".activecaption");
@@ -13,6 +12,7 @@ var main = function() {
     currentCaption.fadeOut(1000).removeClass("activecaption");
     nextSlide.fadeIn(1000).addClass("activeslide");
     nextCaption.fadeIn(1000).addClass("activecaption");
+    window.alert(nextSlide.nodeName);
   });
 }
 
