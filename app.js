@@ -5,8 +5,8 @@ var main = function() {
     var currentCaption = $(".activecaption");
     var nextCaption = currentCaption.next();
     if (currentSlide.is(':last-child')) {
-      nextSlide = $(".slideshow").first();
-      nextCaption = $(".slideshow-captions").first();
+      nextSlide = $("ul.slideshow li:first");
+      nextCaption = $("ul.slideshow-captions li:first");
     };
     window.alert(currentSlide.attr('class') + "mk" + nextSlide.attr('class'))
     currentSlide.fadeOut(1000).removeClass("activeslide");
