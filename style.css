@@ -97,10 +97,14 @@ body {
 	padding-left: 0px;
 }
 
+.slideshow li {
+	max-height: 80%;
+}
+
 .slideshowimage {
 	display: none;
 	box-shadow: -7px 7px 15px black;
-	width: 100%;
+	max-width: 100%;
 	margin-top: 3rem;
 }
 
