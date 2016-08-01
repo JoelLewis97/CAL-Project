@@ -8,7 +8,7 @@ var main = function() {
       nextSlide = $(".slideshow").first();
       nextCaption = $(".slideshow-captions").first();
     };
-    window.alert(currentSlide.get(0).class + "WHY" + nextSlide.get(0).class)
+    window.alert(currentSlide.attr('class') + "mk" + nextSlide.attr('class'))
     currentSlide.fadeOut(1000).removeClass("activeslide");
     currentCaption.fadeOut(1000).removeClass("activecaption");
     nextSlide.fadeIn(1000).addClass("activeslide");
