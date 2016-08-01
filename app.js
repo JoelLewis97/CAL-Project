@@ -5,10 +5,10 @@ var main = function() {
     var currentCaption = $(".activecaption");
     var nextCaption = currentCaption.next();
     if (nextSlide.length === 0) {
-      nextSlide = $("ul.slideshow li:first img")
+      nextSlide = $(".slideshow").first();
       nextCaption = $("ul.slideshow-captions li:first")
     };
-    window.alert(currentSlide.length + "dd" + nextSlide.length)
+    window.alert(currentSlide.get(0).tagName + "aads" + nextSlide.get(0).tagName)
     currentSlide.fadeOut(1000).removeClass("activeslide");
     currentCaption.fadeOut(1000).removeClass("activecaption");
     nextSlide.fadeIn(1000).addClass("activeslide");
