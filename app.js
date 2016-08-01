@@ -5,7 +5,7 @@ var main = function() {
     var currentCaption = $(".activecaption");
     var nextCaption = currentCaption.next();
     if (nextSlide.length === 0) {
-      nextSlide = $("ul.slideshow li:first")
+      nextSlide = $("ul.slideshow li:first img")
       nextCaption = $("ul.slideshow-captions li:first")
     };
     window.alert(currentSlide.get(0).tagName + "123" + nextSlide.get(0).tagName + "345" + currentCaption.get(0).tagName + "678" + nextCaption.get(0).tagName)
