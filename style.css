@@ -95,10 +95,7 @@ body {
 
 .slideshow {
 	padding-left: 0px;
-}
-
-.slideshow li {
-	max-height: 80%;
+	max-height: 65%;
 }
 
 .slideshowimage {
