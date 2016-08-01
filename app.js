@@ -10,8 +10,8 @@ var main = function() {
     };
     currentSlide.fadeOut(1000);
     currentCaption.fadeOut(1000);
-    nextSlide.delay(1000).fadeIn(1000);
-    nextCaption.delay(1000).fadeIn(1000);
+    nextSlide.fadeIn(1000);
+    nextCaption.fadeIn(1000);
   });
 }
 
