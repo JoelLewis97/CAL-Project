@@ -8,10 +8,9 @@ var main = function() {
       nextSlide = $("ul.slideshow li:first");
       nextCaption = $("ul.slideshow-captions li:first");
     };
-    currentSlide.fadeOut(1000);
-    currentCaption.fadeOut(1000);
-    nextSlide.fadeIn(1000);
-    nextCaption.fadeIn(1000);
+    currentSlide.fadeOut(1000,function(){
+      nextSlide.fadeIn(1000);
+    });
   });
 }
 
