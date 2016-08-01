@@ -8,8 +8,10 @@ var main = function() {
       nextSlide = $("ul.slideshow li:first");
       nextCaption = $("ul.slideshow-captions li:first");
     };
-    currentSlide.fadeOut(1000).removeClass("activeslide");
-    currentCaption.fadeOut(1000).removeClass("activecaption");
+    currentSlide.fadeOut(1000);
+    currentSlide.removeClass("activeslide");
+    currentCaption.fadeOut(1000);
+    currentCaption.removeClass("activecaption");
     nextSlide.delay(1000).fadeIn(1000).addClass("activeslide");
     nextCaption.delay(1000).fadeIn(1000).addClass("activecaption");
   });
