@@ -4,7 +4,7 @@ var main = function() {
     var nextSlide = currentSlide.next();
     var currentCaption = $(".activecaption");
     var nextCaption = currentCaption.next();
-    if (nextSlide.length === 0) {
+    if (nextSlide.get(0).tagName !== 'LI') {
       nextSlide = $(".slideshow").first();
       nextCaption = $(".slideshow-captions").first();
     };
