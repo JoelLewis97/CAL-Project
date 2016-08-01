@@ -93,7 +93,7 @@ body {
 	color: white;
 }
 
-#mainjumbo row {
+#mainjumbo .row {
 	max-height: 100%;
 }
 
