@@ -123,6 +123,11 @@ body {
 	text-align: center;
 	box-shadow: -7px 7px 15px black;
 	overflow-y: auto;
+	display: none;
+}
+
+.activecaption {
+	display: inline;
 }
 
 .imagecaption p {
