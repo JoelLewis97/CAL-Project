@@ -12,7 +12,7 @@ var main = function() {
     currentCaption.fadeOut(1000).removeClass("activecaption");
     nextSlide.fadeIn(1000).addClass("activeslide");
     nextCaption.fadeIn(1000).addClass("activecaption");
-    window.alert($("ul.slideshow li:first").attr("class") + "k");
+    window.alert($("ul.slideshow li:first").get(0).tagName + "1234");
   });
 }
 
