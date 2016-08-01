@@ -108,7 +108,7 @@ body {
 }
 
 .slideshowimage {
-	padding-top: 3rem;
+	padding-top: 1rem;
 	display: none;
 	box-shadow: -7px 7px 15px black;
 	max-width: 100%;
