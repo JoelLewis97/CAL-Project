@@ -91,6 +91,7 @@ body {
 
 #mainjumbo {
 	color: white;
+	max-height: 100%;
 }
 
 #mainjumbo .row {
