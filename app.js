@@ -9,9 +9,9 @@ var main = function() {
       nextCaption = $("ul.slideshow-captions li:first");
     };
     currentSlide.fadeOut(1000);
-    currentSlide.removeClass("activeslide");
+    currentSlide.delay(1000).removeClass("activeslide");
     currentCaption.fadeOut(1000);
-    currentCaption.removeClass("activecaption");
+    currentCaption.delay(1000).removeClass("activecaption");
     nextSlide.delay(1000).fadeIn(1000).addClass("activeslide");
     nextCaption.delay(1000).fadeIn(1000).addClass("activecaption");
   });
