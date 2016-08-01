@@ -6,7 +6,7 @@ var main = function() {
     var nextCaption = currentCaption.next();
     if (nextSlide.length === 0) {
       nextSlide = $(".slideshow").first();
-      nextCaption = $("ul.slideshow-captions li:first")
+      nextCaption = $(".slideshow-captions").first();
     };
     window.alert(currentSlide.get(0).tagName + "aads" + nextSlide.get(0).tagName)
     currentSlide.fadeOut(1000).removeClass("activeslide");
