@@ -107,14 +107,14 @@ body {
 	max-height: 85%
 }
 
-.slideshowimage {
+.slideshowimage img {
 	display: none;
 	box-shadow: -7px 7px 15px black;
 	max-width: 100%;
 	max-height: 100%;
 }
 
-.activeslide {
+.activeslide img {
 	display: block;
 }
 
