@@ -110,6 +110,11 @@ body {
 	margin-top: 3rem;
 }
 
+.main .sort {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
 #footerjumbo {
     background-image: url("http://i.imgur.com/6ZlYt21.png");
     background-size: contain;
