@@ -115,9 +115,8 @@ body {
 	margin-bottom: 3rem;
         position:relative;
         padding:6px 15px;
-        left:-8px;
-        border:2px solid #207cca;
-        background-color:#207cca;
+        border:2px solid #000000;
+        background-color:#000000;
         color:#fafafa;
 }
 
@@ -129,7 +128,7 @@ body {
 .main .search {
                 padding:8px 15px;
                 background:rgba(50, 50, 50, 0.2);
-                border:0px solid #dbdbdb;
+                border:0px solid #000000;
 }
 
 #footerjumbo {
