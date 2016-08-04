@@ -29,26 +29,28 @@
 			</nav>
 		</div>
 	</div>
-	<div class="main container">
-		<h2>Product List</h2>
-		<div class="row">
-			<div class="col-md-6">
-				<ul>
-					<li>Raised Access Flooring With Low Smoke, Low Toxicity Rubber Tile Topping</li>
-					<li>Vamac Rubber Section 12 Approved Flooring, Freudenber Nora, Tiflex</li>
-					<li>Vinyl Flooring & Carpet Installation</li>
-					<li>Anti-Slip Resin Flooring, Screed Or Coating</li>
-					<li>Anti-Graffiti Coating, Brick Work Cleaning & Pointing</li>
-					<li>Industrial Coatings Floor Grinding And Sealing</li>
-					<li>Screeding Works Floors, Cementitious</li>
-					<li>White & Yellow Line Marking In Stations and Depots</li>
-					<li>Fast Curing Resin (MMA)</li>
-					<li>Entrance Matting Systems With Vamac Inserts</li>
-					<li>Stone, Marble, Granite Works In Stations (Including Making Existing Floors Conform to LUL Slip Standards)</li>
-					<li>Painting And Decorating</li>
-				</ul>
-			</div>
-		</div>
+	<div class="main container" id="products">
+	
+	  <input class="search" placeholder="Search for Products" />
+	  <button class="sort" data-sort="name">
+	    Sort
+	  </button>
+	
+	  <ul class="list">
+	    <li>
+	      <p class="name">Jonny Stromberg</p>
+	    </li>
+	    <li>
+	      <p class="name">Jonas Arnklint</p>
+	    </li>
+	    <li>
+	      <p class="name">Martina Elm</p>
+	    </li>
+	    <li>
+	      <p class="name">Gustaf Lindqvist</p>
+	    </li>
+	  </ul>
+	
 	</div>
 	<div class="prefooter">
 		<img src="http://calcontracts.com/images/ebclogo.gif"/>
@@ -63,3 +65,12 @@
 	</footer>
 </body>
 </html>
+
+<script>
+	var options = {
+		valueNames: [ 'name' ]
+		
+	};
+	
+	var productList = new List('products', options);
+</script>
