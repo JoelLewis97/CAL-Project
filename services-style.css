@@ -97,6 +97,10 @@ body {
 	float: right;
 }
 
+h3 {
+	font-style: italic;
+}
+
 #footerjumbo {
     background-image: url("http://i.imgur.com/6ZlYt21.png");
     background-size: contain;
