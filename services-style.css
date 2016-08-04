@@ -103,6 +103,7 @@ h3 {
 }
 
 .main ul li {
+	padding-bottom: 1rem;
 	margin-left: 3rem;
 }
 #footerjumbo {
