@@ -129,6 +129,7 @@ body {
         padding:8px 15px;
         background:rgba(50, 50, 50, 0.2);
         border:0px solid #000000;
+        border-radius: 5px;
 }
 
 .main .search:active {
