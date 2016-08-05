@@ -71,11 +71,11 @@ body {
 	white-space: nowrap;
 }
 
-.menu ul li:hover {
+.menu ul li a:hover {
 	color: #a0a0a0;
 }
 
-.menu ul li:active {
+.menu ul li a:active {
 	position: relative;
 	top: 1px;
 }
