@@ -135,6 +135,7 @@ body {
 .main .search:focus {
 	border:0px solid #000000;
 	border-radius: 5px;
+	outline: none;
 }
 
 #footerjumbo {
