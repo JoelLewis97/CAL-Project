@@ -103,30 +103,3 @@ body {
 	font-size: 3rem;
 	font-weight: bold;
 }
-
-.prefooter {
-	margin-top: 2rem;
-	height: 10rem;
-}
-
-.prefooter img {
-	display: block;
-	float: right;
-}
-
-#footerjumbo {
-    background-image: url("http://i.imgur.com/6ZlYt21.png");
-    background-size: contain;
-    margin-top: 5rem;
-    margin-bottom: 0px;
-    padding-top: 3rem;
-    border-top: 0.3rem solid black;
-    height: 10rem;
-}
-
-#contactinfobar-bottom {
-	color: white;
-	text-align: center;
-	font-style: italic;
-	font-size: 14px;
-}
