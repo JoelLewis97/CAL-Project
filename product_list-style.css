@@ -132,8 +132,9 @@ body {
         border-radius: 5px;
 }
 
-.main .search:active {
+.main .search:focus {
 	border:0px solid #000000;
+	border-radius: 5px;
 }
 
 #footerjumbo {
