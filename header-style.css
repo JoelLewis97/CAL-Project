@@ -54,6 +54,10 @@ body {
 	height: 4.5rem;
 }
 
+.menu {
+	height: 100%;
+}
+
 .menu ul {
 	list-style: None;
 	float: left;
