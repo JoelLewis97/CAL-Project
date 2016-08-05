@@ -57,6 +57,7 @@ body {
 	list-style: None;
 	float: left;
 	margin-bottom: 0px;
+	display: flex;
 }
 
 .menu ul li a {
