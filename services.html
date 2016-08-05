@@ -6,28 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="services-style.css"/>
 </head>
 <body id="index">
-	<header class="headerbar">
-		<div id="contactinfobar-top">
-			<p>CAL Contracts Ltd, 63 Croydon Rd, London SE20 7TS, Tel: 020 8676 8971  Fax: 020 8778 0698  Company Number - 2830133  VAT Number - 627 275919</p>
-		</div>
-		<div class="logo">
-			<a href="index.html"><img class="col-sm-4" src="http://i.imgur.com/WD8r4lA.png"/>
-			<h1 class="col-sm-2">CAL Contracts Ltd</h1></a>
-		</div>
-	</header>
-	<div class="menu-wrapper">
-		<div class="container">
-			<nav class="menu">
-				<ul>
-					<a href="index.html"><li>Home</li></a>
-					<a href="#"><li>About Us</li></a>
-					<a href="services.html"><li>Services</li></a>
-					<a href="product_list.html"><li>Product List</li></a>
-					<a href="contact_us.html"><li>Contact Us</li></a>
-				</ul>
-			</nav>
-		</div>
-	</div>
+	<div id="header"></div>
+	<script>
+		$("#header").load("header.html");
+	</script>
 	<div class="main container">
 		<h2>Services We Provide</h2>
 		<div class="row">
