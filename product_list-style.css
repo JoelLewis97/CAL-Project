@@ -132,7 +132,7 @@ body {
 }
 
 .main .search:active {
-	color: #000000;
+	border:0px solid #000000;
 }
 
 #footerjumbo {
