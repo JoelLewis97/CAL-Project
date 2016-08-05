@@ -110,19 +110,17 @@ body {
 	margin-top: 3rem;
 }
 
-.main .sort {
-	margin-top: 1rem;
-	margin-bottom: 3rem;
-        padding:6px 15px;
-        border:2px solid #111;
+.main .search {
+        padding:8px 15px;
+        background:rgba(50, 50, 50, 0.2);
+        border:0px solid #000000;
         border-radius: 5px;
-        background-color:#333;
-        color:#fafafa;
 }
 
-.main .sort:hover {
-        background-color:#fafafa;
-        color:#999;
+.main .search:focus {
+	border:1px solid #000000;
+	border-radius: 5px;
+	outline: none;
 }
 
 .main .search-button {
@@ -138,17 +136,19 @@ body {
         color:#fafafa;
 }
 
-.main .search {
-        padding:8px 15px;
-        background:rgba(50, 50, 50, 0.2);
-        border:0px solid #000000;
+.main .sort {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+        padding:6px 15px;
+        border:2px solid #111;
         border-radius: 5px;
+        background-color:#333;
+        color:#fafafa;
 }
 
-.main .search:focus {
-	border:1px solid #000000;
-	border-radius: 5px;
-	outline: none;
+.main .sort:hover {
+        background-color:#999;
+        color:#111;
 }
 
 #footerjumbo {
