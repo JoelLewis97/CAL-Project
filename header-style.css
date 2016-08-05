@@ -59,7 +59,7 @@ body {
 	margin-bottom: 0px;
 }
 
-.menu ul li {
+.menu ul li a {
 	float: left;
 	padding-left: 0rem;
 	padding-right: 4rem;
