@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.slickslide').slick({
-    autoplay: true;
-    autoplaySpeed: 1000;
+    autoplay: true,
+    autoplaySpeed: 1000
   });
 });
