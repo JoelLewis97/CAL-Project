@@ -31,7 +31,7 @@ body {
 }
 
 .slickslide img {
-	height: 80%;
+	max-width: 100%;
 }
 
 #index h2 {
