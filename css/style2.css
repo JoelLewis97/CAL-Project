@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+body {
+	font-family: 'Open Sans';
+}
+
+#main {
+	background-image: url("http://i.imgur.com/528g5ke.jpg");
+	background-size: contain;
+	border-bottom: 0.3rem solid black;
+	height: 50rem;
+	padding: 0px;
+	overflow-x: auto;
+}
+
+#mainjumbo {
+	color: white;
+	height: 100%;
+}
+
+#mainjumbo .row {
+	height: 100%;
+}
+
+#mainjumbo .row .col-sm-6 {
+	height: 100%;
+}
+
+.slideshow {
+	padding-left: 0px;
+	max-height: 85%
+}
+
+.slideshowimage img {
+	display: none;
+	box-shadow: -7px 7px 15px black;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.activeslide img {
+	display: block;
+}
+
+.imagecaption {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
+	padding: 6rem;
+	padding-top: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	height: 42rem;
+	text-align: center;
+	box-shadow: -7px 7px 15px black;
+	overflow-y: auto;
+	display: none;
+}
+
+.activecaption {
+	display: inline;
+}
+
+.imagecaption p {
+	font-size: 3rem;
+}
+
+#slideshowbutton img {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1rem;
+	height: 6.5rem;
+	width: auto;
+}
+
+#slideshowbutton-prev {
+	float: left;
+}
+
+#slideshowbutton img:active {
+	position: relative;
+	top: 2px;
+}
+
+#slideshowbutton-next {
+	float: right;
+}
+
+#index h2 {
+	color: black;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+#casestudies img {
+	margin-top: 3rem;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 1rem;
+	padding-right: 2rem;
+}
+
+#casestudies a {
+	color: black;
+	font-size: 3rem;
+	font-weight: bold;
+}
