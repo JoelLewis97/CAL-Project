@@ -36,6 +36,7 @@ body {
 
 .slickslide p {
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
+	height: 100%;
 }
 
 #index h2 {
