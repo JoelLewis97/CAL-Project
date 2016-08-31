@@ -34,6 +34,10 @@ body {
 	max-width: 100%;
 }
 
+.slickslide p {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
+}
+
 #index h2 {
 	color: black;
 	font-weight: bold;
