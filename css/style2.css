@@ -28,6 +28,8 @@ body {
 
 .slickslide {
 	height: 100%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .slickslide img {
