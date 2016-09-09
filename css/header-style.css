@@ -18,8 +18,7 @@ body {
 }
 
 .headerbar {
-	background-image: url("https://joellewis97.github.io/CAL-Project/img/triangular.png");
-	background-size: contain;
+	background-color: #545454;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	border-bottom: 0.3rem solid black;
