@@ -37,6 +37,11 @@ body {
 	height: 100%;
 }
 
+.slickslide .row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .slickslide img {
 	width: 100%;
 	margin-right: 0px;
