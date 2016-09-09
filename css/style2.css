@@ -32,6 +32,9 @@ body {
 	padding-bottom: 3rem;
 }
 
+.slickslide p {
+	color: white;
+}
 
 #index h2 {
 	color: black;
