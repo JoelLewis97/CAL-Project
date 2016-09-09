@@ -27,7 +27,7 @@ body {
 
 .slickslide {
 	display: inline;
-	height: 500px;
+	height: 100%;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
