@@ -44,14 +44,10 @@ body {
 
 .slickslide img {
 	width: 100%;
-	margin-right: 0px;
-	display: inline-block;
 }
 
 .slickslide #slidecaption {
 	width: 100%;
-	margin-left: 0px;
-	display: inline-block;
 }
 
 .slickslide p {
