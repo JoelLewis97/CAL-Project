@@ -5,7 +5,7 @@ body {
 }
 
 #main {
-	background-image: url("http://i.imgur.com/528g5ke.jpg");
+	background-image: url("file://css/brushed.png");
 	background-size: contain;
 	border-bottom: 0.3rem solid black;
 	height: 50rem;
