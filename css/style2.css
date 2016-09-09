@@ -32,7 +32,7 @@ body {
 	padding-bottom: 3rem;
 }
 
-.slickslide > div {
+.slickslide #slide {
 	background-color: rgba(0, 0, 0, .4);
 	height: 100%;
 	width: 100%;
