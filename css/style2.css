@@ -32,8 +32,8 @@ body {
 	padding-bottom: 3rem;
 }
 
-.slickslide div {
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
+.slickslide > div {
+	background-color: rgba(255, 255, 255, .4);
 }
 
 .slickslide p {
