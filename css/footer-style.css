@@ -15,8 +15,7 @@ body {
 }
 
 #footerjumbo {
-    background-image: url("http://i.imgur.com/6ZlYt21.png");
-    background-size: contain;
+    background-color: #3f32a8;
     margin-top: 5rem;
     margin-bottom: 0px;
     padding-top: 3rem;
