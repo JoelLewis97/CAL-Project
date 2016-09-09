@@ -6,7 +6,6 @@ body {
 
 #main {
 	background-image: url("https://joellewis97.github.io/CAL-Project/img/triangular.png");
-	background-size: contain;
 	border-bottom: 0.3rem solid black;
 	height: 50rem;
 	padding: 0px;
