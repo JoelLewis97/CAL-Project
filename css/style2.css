@@ -41,6 +41,10 @@ body {
 	width: 50%;
 }
 
+.slickslide #slidecaption {
+	width: 50%;
+}
+
 .slickslide p {
 	color: white;
 }
