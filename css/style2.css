@@ -7,7 +7,7 @@ body {
 #main {
 	background-image: url("https://joellewis97.github.io/CAL-Project/img/triangular.png");
 	border-bottom: 0.3rem solid black;
-	height: 50rem;
+	height: 500px;
 	padding: 0px;
 	overflow-x: auto;
 }
