@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+body {
+	font-family: 'Open Sans';
+}
+
+#main {
+	background-image: url("http://i.imgur.com/528g5ke.jpg");
+	background-size: contain;
+	border-bottom: 0.3rem solid black;
+	height: 50rem;
+	padding: 0px;
+	overflow-x: auto;
+}
+
+#mainjumbo {
+	color: white;
+	height: 100%;
+}
+
+#mainjumbo .row {
+	height: 100%;
+}
+
+#mainjumbo .row .col-sm-6 {
+	height: 100%;
+}
+
+.slickslide {
+	display: inline;
+	height: 100%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.slickslide img {
+	max-width: 100%;
+}
+
+.slickslide p {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
+}
+
+#index h2 {
+	color: black;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+#casestudies img {
+	margin-top: 3rem;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 1rem;
+	padding-right: 2rem;
+}
+
+#casestudies a {
+	color: black;
+	font-size: 3rem;
+	font-weight: bold;
+}
