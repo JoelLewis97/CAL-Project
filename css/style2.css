@@ -39,10 +39,12 @@ body {
 
 .slickslide img {
 	width: 50%;
+	display: inline-block;
 }
 
 .slickslide #slidecaption {
 	width: 50%;
+	display: inline-block;
 }
 
 .slickslide p {
