@@ -38,8 +38,7 @@ body {
 }
 
 .slickslide .row {
-	margin-left: 0px;
-	margin-right: 0px;
+	width: 100%;
 }
 
 .slickslide img {
