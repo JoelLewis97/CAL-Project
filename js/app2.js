@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('.slickslide').slick({
     adaptiveHeight: true,
-    dots: true
+    dots: true,
+    touchMove: true
   });
 });
