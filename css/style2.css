@@ -12,9 +12,18 @@ body {
 	overflow-x: auto;
 }
 
+#main .container {
+	height: 100%;
+}
+
+#main .row {
+	height: 100%;
+}
+
 .slickslide {
 	height: 100%;
 }
+
 
 #index h2 {
 	color: black;
