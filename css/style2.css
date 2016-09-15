@@ -24,6 +24,10 @@ body {
 	height: 100%;
 }
 
+.slickslide img {
+	width: 50%;
+}
+
 #index h2 {
 	color: black;
 	font-weight: bold;
