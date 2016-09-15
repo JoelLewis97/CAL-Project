@@ -17,6 +17,10 @@ body {
 	height: 100%;
 }
 
+#slide img {
+	max-height: 100%;
+}
+
 #index h2 {
 	color: black;
 	font-weight: bold;
