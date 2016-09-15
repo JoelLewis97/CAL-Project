@@ -6,7 +6,7 @@ body {
 
 #main {
 	background-image: url("https://joellewis97.github.io/CAL-Project/img/triangular.png");
-	border-bottom: 0.3rem solid black;
+	border-bottom: 0.3rem solid orange;
 	height: 500px;
 	padding: 0px;
 	overflow-x: auto;
@@ -26,6 +26,7 @@ body {
 
 .slickslide img {
 	width: 50%;
+	vertical-align: middle;
 }
 
 #index h2 {
