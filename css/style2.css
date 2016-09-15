@@ -22,6 +22,7 @@ body {
 
 .slickslide {
 	height: 100%;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
 }
 
 .slickslide div {
@@ -33,7 +34,6 @@ body {
 }
 
 #textslide {
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
 	color: white;
 	font-size: 4rem;
 	text-align: center;
