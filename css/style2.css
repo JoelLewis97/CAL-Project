@@ -20,6 +20,13 @@ body {
 	height: 100%;
 }
 
+/*Bugfix for flickering transition from last to first slide*/
+.slick-track,
+.slick-list {
+-webkit-perspective: 2000;
+-webkit-backface-visibility: hidden;
+}
+
 .slickslide {
 	height: 100%;
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII=");
