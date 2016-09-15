@@ -17,43 +17,6 @@ body {
 	height: 100%;
 }
 
-#mainjumbo .row {
-	height: 100%;
-}
-
-#mainjumbo .row .col-sm-6 {
-	height: 100%;
-}
-
-.slickslide {
-	display: inline;
-	height: 100%;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
-
-.slickslide > div {
-	background-color: rgba(0, 0, 0, .4);
-	height: 100%;
-	width: 100%;
-}
-
-.slickslide .row {
-	width: 100%;
-}
-
-.slickslide img {
-	width: 100%;
-}
-
-.slickslide #slidecaption {
-	width: 100%;
-}
-
-.slickslide p {
-	color: white;
-}
-
 #index h2 {
 	color: black;
 	font-weight: bold;
