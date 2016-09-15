@@ -24,6 +24,10 @@ body {
 	height: 100%;
 }
 
+.slickslide div {
+	height: 100%;
+}
+
 .slickslide img {
 	height: 498px;
 }
