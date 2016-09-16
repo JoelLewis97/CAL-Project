@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
 
 @font-face {
-    font-family: Bebas;
+    font-family: 'Bebas';
     src: url(fonts/BEBAS___.ttf);
 }
 
@@ -31,7 +31,7 @@ body {
 	text-align: left;
 	font-weight: bold;
 	font-size: 3rem;
-	font-family: 'Bebas Regular';
+	font-family: 'Bebas';
 	color: black;
 }
 
