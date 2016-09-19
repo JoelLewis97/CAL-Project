@@ -3,39 +3,22 @@
 <head>
 	<title>CAL Contracts Ltd</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js""https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body id="index">
-	<header class="headerbar">
-		<div id="contactinfobar-top">
-			<p>CAL Contracts Ltd, 63 Croydon Rd, London SE20 7TS, Tel: 020 8676 8971  Fax: 020 8778 0698  Company Number - 2830133  VAT Number - 627 275919</p>
-		</div>
-		<div class="logo">
-			<a href="#"><img class="col-sm-4" src="http://i.imgur.com/WD8r4lA.png"/>
-			<h1 class="col-sm-2">CAL Contracts Ltd</h1></a>
-		</div>
-	</header>
-	<div class="menu-wrapper">
-		<div class="container">
-			<nav class="menu">
-				<ul>
-					<a href="#"><li>Home</li></a>
-					<a href="#"><li>About Us</li></a>
-					<a href="#"><li>Services</li></a>
-					<a href="#"><li>Contact Us</li></a>
-				</ul>
-			</nav>
-		</div>
-	</div>
+	<div id="header"></div>
+	<script>
+		$("#header").load("header.html");
+	</script>
 	<div class="jumbotron" id="main">
 		<div class="container" id="mainjumbo">
 			<div class="row">
 				<div class="col-sm-6">
 					<ul class="slideshow">
-						<li><a href='#'><img src="http://i.imgur.com/r9RKndr.jpg" class="slideshowimage"/></a></li>
-						<li><a href='#'><img src="https://pixabay.com/static/uploads/photo/2015/07/26/07/31/warehouse-860916_960_720.jpg" class="activeslide slideshowimage"/></a></li>
+						<li class="activeslide slideshowimage"><a href='#'><img src="http://i.imgur.com/r9RKndr.jpg"/></a></li>
+						<li class="slideshowimage"><a href='#'><img src="https://pixabay.com/static/uploads/photo/2015/07/26/07/31/warehouse-860916_960_720.jpg"/></a></li>
 					</ul>
 					<div id="slideshowbutton">
 						<a href="#"><img src="https://cdn1.iconfinder.com/data/icons/general-9/500/left_arrow-128.png" id="slideshowbutton-prev"/></a>
@@ -62,21 +45,21 @@
 		<div class="row" id="caseimages-1">
 			<div class="col-sm-4">
 				<a href='#'><img src="http://www.tileplan.com/wp-content/uploads/2009/12/tileplans-industrial-interlocking-floor-tiles-2.jpg"/></a>
-				<a href='#'>Item 1</a>
+				<a href='floors.html'>Floors</a>
 				<p>
 					This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage.
 				</p>
 			</div>
 			<div class="col-sm-4">
 				<a href='#'><img src="http://www.tileplan.com/wp-content/uploads/2009/12/tileplans-industrial-interlocking-floor-tiles-2.jpg"/></a>
-				<a href='#'>Item 2</a>	
+				<a href='#'>Raised Floors</a>	
 				<p>
 					This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage.
 				</p>			
 			</div>
 			<div class="col-sm-4">
 				<a href='#'><img src="http://www.tileplan.com/wp-content/uploads/2009/12/tileplans-industrial-interlocking-floor-tiles-2.jpg"/></a>
-				<a href='#'>Item 3</a>
+				<a href='#'>Floor Tiling</a>
 				<p>
 					This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage.
 				</p>
@@ -85,37 +68,30 @@
 		<div class="row" id="caseimages-2">
 			<div class="col-sm-4">
 				<a href='#'><img src="http://www.tileplan.com/wp-content/uploads/2009/12/tileplans-industrial-interlocking-floor-tiles-2.jpg"/></a>
-				<a href='#'>Item 4</a>
+				<a href='#'>Suspended Ceilings</a>
 				<p>
 					This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage.
 				</p>
 			</div>
 			<div class="col-sm-4">
 				<a href='#'><img src="http://www.tileplan.com/wp-content/uploads/2009/12/tileplans-industrial-interlocking-floor-tiles-2.jpg"/></a>
-				<a href='#'>Item 5</a>	
+				<a href='#'>Roofs</a>	
 				<p>
 					This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage.
 				</p>			
 			</div>
 			<div class="col-sm-4">
 				<a href='#'><img src="http://www.tileplan.com/wp-content/uploads/2009/12/tileplans-industrial-interlocking-floor-tiles-2.jpg"/></a>
-				<a href='#'>Item 6</a>
+				<a href='#'>Walls</a>
 				<p>
 					This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage. This is a test paragraph to fill the space of information soon to be added to this webpage.
 				</p>
 			</div>			
 		</div>
 	</section>
-	<div class="prefooter">
-		<img src="http://calcontracts.com/images/ebclogo.gif"/>
-		<img src="http://calcontracts.com/images/fmblogo.gif"/>
-		<img src="http://calcontracts.com/images/isologo.gif"/>
-		<img src="http://calcontracts.com/images/wrlogo.gif"/>
-	</div>
-	<footer class="jumbotron" id="footerjumbo">
-		<p id="contactinfobar-bottom">
-			CAL Contracts Ltd, 63 Croydon Rd, London SE20 7TS <br/> Tel: 020 8676 8971  Fax: 020 8778 0698  Company Number - 2830133  VAT Number - 627 275919
-		</p>
-	</footer>
+	<div id="footer"></div>
+	<script>
+		$("#footer").load("footer.html");
+	</script>
 </body>
 </html>

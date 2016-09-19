@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+@font-face {
+    font-family: 'Nevis';
+    src: url("https://joellewis97.github.io/CAL-Project/fonts/nevis.ttf");
+}
+
+body {
+	font-family: 'Open Sans';
+}
+
+.headerbar {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0.3rem solid black;
+	margin-bottom: 0px;
+}
+
+.logo {
+	display: inline-block;
+	min-width: 300px;
+}
+
+.logo img {
+	height: 14rem;
+	width: auto;
+}
+
+.logo h1 {
+	padding-left: 0px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: 'Nevis';
+	color: black;
+}
+
+.logo a {
+	width: 100%;
+}
+
+.menu-wrapper {
+	background-color: #111;
+	height: 4.5rem;
+}
+
+.menu {
+	height: 100%;
+}
+
+.menu ul {
+	list-style: None;
+	float: left;
+	margin-bottom: 0px;
+	display: flex;
+}
+
+.menu ul li a {
+	float: left;
+	padding-left: 0rem;
+	padding-right: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	white-space: nowrap;
+}
+
+.menu ul li a:hover {
+	color: #a0a0a0;
+}
+
+.menu ul li a:active {
+	position: relative;
+	top: 1px;
+}
