@@ -36,7 +36,8 @@ body {
 
 #textslide p {
 	color: white;
-	font-size: 14px;
+	font-size: 32px;
+	text-align: center;
 }
 
 #index h2 {
