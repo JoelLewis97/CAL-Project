@@ -19,6 +19,8 @@ body {
 
 .headerbar p {
 	float: right;
+	font-weight: bold;
+	font-style: italic;
 }
 
 .logo {
