@@ -21,6 +21,7 @@ body {
 	float: right;
 	font-weight: bold;
 	font-style: italic;
+	margin-right: 5px;
 }
 
 .logo {
