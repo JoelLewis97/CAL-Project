@@ -51,12 +51,6 @@ body {
 	padding: 5px;
 }
 
-#index .slick-prev:before,
-#index .slick-next:before
-{
-	font-size: 40px;
-}
-
 #casestudies img {
 	margin-top: 25px;
 	width: 100%;
