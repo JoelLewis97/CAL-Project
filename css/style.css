@@ -51,14 +51,12 @@ body {
 	padding: 5px;
 }
 
-.slick-prev {
-  content: ">";
+.jumboslide .slick-prev {
   color: red;
   font-size: 30px;
 }
 
-.slick-next {
-  content: "<";
+.jumboslide .slick-next {
   color: red;
   font-size: 30px;
 }
