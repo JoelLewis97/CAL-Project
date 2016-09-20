@@ -7,7 +7,7 @@ $(document).ready(function(){
   
   $('.offerslide').slick({
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '100px',
     slidesToShow: 3
   });
 });
