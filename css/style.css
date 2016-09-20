@@ -47,6 +47,10 @@ body {
 	font-size: 4rem;
 }
 
+.offerslide div {
+	padding: 10px;
+}
+
 #casestudies img {
 	margin-top: 25px;
 	width: 100%;
