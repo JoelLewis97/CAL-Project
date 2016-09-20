@@ -51,16 +51,6 @@ body {
 	padding: 5px;
 }
 
-.jumboslide .slick-prev {
-  color: red;
-  font-size: 30px;
-}
-
-.jumboslide .slick-next {
-  color: red;
-  font-size: 30px;
-}
-
 #casestudies img {
 	margin-top: 25px;
 	width: 100%;
