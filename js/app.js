@@ -6,4 +6,7 @@ $(document).ready(function(){
   });
   
   $('.offerslide').slick();
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3
 });
