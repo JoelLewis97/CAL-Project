@@ -26,6 +26,10 @@ body {
 	margin-bottom: 0px;
 }
 
+.headerbar p {
+	float: right;
+}
+
 .logo {
 	display: inline-block;
 	min-width: 300px;
