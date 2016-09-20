@@ -51,8 +51,8 @@ body {
 	padding: 5px;
 }
 
-.slick-prev:before,
-.slick-next:before
+#index .slick-prev:before,
+#index .slick-next:before
 {
 	font-size: 40px;
 }
