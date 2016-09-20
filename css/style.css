@@ -51,13 +51,13 @@ body {
 	padding: 5px;
 }
 
-.slick-prev:after {
+.slick-prev {
   content: ">";
   color: red;
   font-size: 30px;
 }
 
-.slick-next:before {
+.slick-next {
   content: "<";
   color: red;
   font-size: 30px;
