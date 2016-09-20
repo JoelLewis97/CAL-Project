@@ -5,8 +5,9 @@ $(document).ready(function(){
     autoplaySpeed: 5000
   });
   
-  $('.offerslide').slick();
+  $('.offerslide').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3
+  });
 });
