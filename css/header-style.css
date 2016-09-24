@@ -79,6 +79,7 @@ body {
 
 .menu ul li a:hover {
 	color: #a0a0a0;
+	text-decoration: none;
 }
 
 .menu ul li a:active {
