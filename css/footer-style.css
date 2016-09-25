@@ -12,7 +12,7 @@ body {
 .prefooter img {
 	display: block;
 	float: right;
-	max-height: 100px;
+	height: 100px;
 }
 
 #footerjumbo {
