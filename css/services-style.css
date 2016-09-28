@@ -8,22 +8,25 @@ body {
 	margin-top: 3rem;
 	color: black;
 	font-weight: bold;
-	font-size: 4rem;
+	font-size: 5rem;
 	text-align: center;
 }
 
-.main h2 {
-	margin-bottom: 3rem;
+#index h3 {
+	font-size: 3rem;
+	font-weight: bold;
 }
 
-.main h3 {
-	text-decoration: underline;
+.description {
+	margin-top: 30px;
+	font-size: 20px;
 }
 
-.main ul li {
-	padding-bottom: 1rem;
+.description ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.main h4 {
-	margin-top: 3rem;
+.description ul li {
+	margin-top: 3px;
 }
