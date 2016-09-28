@@ -21,6 +21,10 @@ body {
 	font-size: 20px;
 }
 
-.description li {
+.description ul {
+	margin-top: 5px;
+}
+
+.description ul li {
 	margin-top: 3px;
 }
