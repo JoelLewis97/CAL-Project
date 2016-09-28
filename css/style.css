@@ -39,6 +39,7 @@ body {
 	font-size: 32px;
 	text-align: center;
 	padding-top: 200px;
+	margin-top: 5px;
 }
 
 #index h2 {
@@ -49,6 +50,10 @@ body {
 
 .offerslide div {
 	padding: 5px;
+}
+
+.offerslide p {
+	margin-top: 5px;
 }
 
 #casestudies img {
