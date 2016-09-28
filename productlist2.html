@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CAL Contracts Ltd</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/product_list2-style.css"/>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+</head>
+<body id="index">
+	<div id="header"></div>
+	<script>
+		$("#header").load("header.html");
+	</script>
+	<div class="main container" id="products">
+		<h2>Product List 2.0</h2>
+		<input class="search" placeholder="Search for Products" />
+		<button class="sort" data-sort="name">
+			Sort by Name
+		</button>
+		<ul class="list">
+			<li>
+				<p class="name">Tensid Graffi coat 1 invisible sacrificial anti-fly/graffiti coating</p>
+			</li>
+			<li>
+				<p class="name">Tensid Graffi coat 1ES inivisible sacrificial anti-fly/graffiti coating, extra strong on more porous sac</p>
+			</li>1ES inivisible sacrificial anti-fly/graffiti coating, extra strong on more porous sac
+			<li>
+				<p class="name">Tensid Graffi coat 101 most colours for wood or painted surfaces</p>
+			</li>
+			<li>
+				<p class="name">Tensid Graffi coat 102 clear 1 pack coating non porous and painted</p>
+			</li>
+			<li>
+				<p class="name">Tensid Graffi Prime 102 single coat primer prior to 102 brick</p>
+			</li>
+			<li>
+				<p class="name">Tensid Graffi Coat Clear 103 2 pack permanent high solids polysiloxane coating suitable for hard non porous surface, available in clr gloss and most BS colours</p>
+			</li>
+			<li>
+				<p class="name">Tensid Graffi Colour 103 2 pack permanent high solids polysiloxane coating suitable for hard non porous surfaces available in clr closs and most BS colours</p>
+			</li>
+			<li>
+				<p class="name">Tensid Graffi Prime 103 Street Scene 2 pack anti graffiti/flypostering coating</p>
+			</li>
+			<li>
+				<p class="name">Tensid Nano Coat High performance coating providing a gloss, hard scratch and wear resistant surface</p>
+			</li>
+		</ul>
+	</div>
+	<div class="prefooter">
+		<img src="http://calcontracts.com/images/ebclogo.gif"/>
+		<img src="http://calcontracts.com/images/fmblogo.gif"/>
+		<img src="http://calcontracts.com/images/isologo.gif"/>
+		<img src="http://calcontracts.com/images/wrlogo.gif"/>
+	</div>
+	<footer class="jumbotron" id="footerjumbo">
+		<p id="contactinfobar-bottom">
+			CAL Contracts Ltd, 63 Croydon Rd, London SE20 7TS <br/> Tel: 020 8676 8971  Fax: 020 8778 0698  Company Number - 2830133  VAT Number - 627 275919
+		</p>
+	</footer>
+</body>
+</html>
+
+<script>
+	var options = {
+		valueNames: [ 'name' ]
+		
+	};
+	
+	var productList = new List('products', options);
+</script>
