@@ -9,6 +9,8 @@ body {
 	height: 10rem;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+	left: 15%;
 }
 
 .prefooter img {
