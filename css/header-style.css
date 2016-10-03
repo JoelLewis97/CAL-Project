@@ -9,14 +9,14 @@ body {
 	font-family: 'Open Sans';
 }
 
-.headerbar .container {
+#headerbar {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-bottom: 0px;
 }
 
 
-.headerbar p {
+#headerbar p {
 	float: right;
 	font-weight: bold;
 	font-style: italic;
