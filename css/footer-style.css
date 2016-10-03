@@ -9,6 +9,7 @@ body {
 	height: 10rem;
 	margin-left: auto;
 	margin-right: auto;
+	display: inline-block;
 	position: relative;
 	left: 15%;
 }
