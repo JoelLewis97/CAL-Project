@@ -25,11 +25,13 @@ body {
 }
 
 .logo {
+	padding-left: 0px;
 	display: inline-block;
 	min-width: 300px;
 }
 
 .logo img {
+	padding-left: 0px;
 	height: 14rem;
 	width: auto;
 }
